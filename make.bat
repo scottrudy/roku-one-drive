@@ -1,7 +1,7 @@
 @echo off
 set zippath="c:\Program Files\7-Zip\7z.exe"
 set curlpath="C:\Users\scrudy\Downloads\utilities\curl.exe"
-set password=
+set password=test
 set host=10.0.0.111
 C:
 cd \Users\scrudy\source\roku-one-drive
