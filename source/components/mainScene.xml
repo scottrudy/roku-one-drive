@@ -1,4 +1,4 @@
-<component name="mainScene" extends="Scene">
+<component name="MainScene" extends="Scene">
   <children>
     <Rectangle color="#DFDFDF" width="1920" height="1080" opacity=".6" translation="[0,0]" />
     <Overhang showClock="true" title="OneDrive for Roku" />

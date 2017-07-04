@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Copyright 2016 Roku Corp.  All Rights Reserved. -->
-<component name="Exiter" extends="Task">
+<component name="ExitTask" extends="Task">
   <script type="text/brightscript" uri="pkg:/components/exiter.brs"/>
 </component>

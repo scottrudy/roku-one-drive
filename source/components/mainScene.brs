@@ -1,9 +1,9 @@
 Sub init()
     m.HomeScreen = m.Top.findNode("homeScreen")
-    m.HomeTitle = m.top.findNode("homeTitle")
-    m.HomeExiter = m.top.findNode("homeExiter")
-    m.HomeButtonGroup = m.top.findNode("homeButtonGroup")
-    m.HomeImage = m.top.findNode("homeImage")
+    m.HomeTitle = m.Top.findNode("homeTitle")
+    m.HomeExiter = m.Top.findNode("homeExiter")
+    m.HomeButtonGroup = m.Top.findNode("homeButtonGroup")
+    m.HomeImage = m.Top.findNode("homeImage")
     setContent()
     m.HomeButtonGroup.setFocus(true)
     m.HomeButtonGroup.observeField("buttonSelected","onHomeButtonSelected")
@@ -24,4 +24,4 @@ Sub onHomeButtonSelected(event as object)
         print "Exit Button Selected"
         m.HomeExiter.control = "RUN"
     End If
-End sub
+End Sub
