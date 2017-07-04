@@ -12,16 +12,16 @@ End Sub
 Sub setContent()
     print "Setting Content"
     m.HomeImage.Uri="pkg:/images/channel-poster_sd.png"
-    m.HomeButtonGroup.Buttons = ["Nothing", "Exit"]
-    m.HomeTitle.Text = "Choose exit to leave"
+    m.HomeButtonGroup.Buttons = ["Exit"]
+    m.HomeTitle.Text = "Coming soon!"
 End Sub
 
 Sub onHomeButtonSelected(event as object)
     print "onButtonSelected"
     If m.HomeButtonGroup.buttonSelected = 0
-        print "Nothing Button Selected"
-    Else
         print "Exit Button Selected"
         m.HomeExiter.control = "RUN"
+    Else
+        print "Error. There's nothing here"
     End If
 End Sub

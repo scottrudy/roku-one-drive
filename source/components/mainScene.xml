@@ -1,7 +1,7 @@
 <component name="MainScene" extends="Scene">
   <children>
-    <Rectangle color="#DFDFDF" width="1920" height="1080" opacity=".6" translation="[0,0]" />
-    <Overhang showClock="true" title="OneDrive for Roku" />
+    <Rectangle color="#0xFFFFFFFF" width="1920" height="1080" opacity=".6" translation="[0,0]" />
+    <Overhang logoUri="pkg:/images/overhang_fhd.png" showClock="true" title="OneDrive for Roku" titleColor="0xFFFFFFFF" color="0x094AB2FF" />
     <HomeScreen id="homeScreen" visible="true"/>
   </children>
 
