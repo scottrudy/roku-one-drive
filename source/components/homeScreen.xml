@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HomeScreen" extends="Group">
+  <children>
+    <Label id="homeTitle" translation="[750, 250]" width="850">
+      <Font role="font" uri="pkg:/fonts/segoeui.ttf" size="48"/>
+    </Label>
+    <ButtonGroup id="homeButtonGroup" translation="[800,325]"/>
+    <Poster id="homeImage" translation="[300,250]"/>
+    <Exiter id="homeExiter"/>
+  </children>
+
+  <script type="text/brightscript" uri="pkg:/components/homeScreen.brs"/>
+</component>
